@@ -385,6 +385,10 @@ h1 {
 }
 
 @media (max-width: 900px) {
+  .aside {
+    max-width: 600px;
+  }
+
   .gallery__grid {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
