@@ -241,6 +241,21 @@ svg * {
   --border-radius-large: 100px;
 
   --font-family-base: 'Inter', sans-serif;
+}
 
-  --transition-duration: 0.2s;
+body {
+  padding: 20px;
+  font-family: var(--font-family-base);
+  background-color: var(--color-light-gray);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--color-dark);
 }
